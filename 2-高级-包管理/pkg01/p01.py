@@ -1,4 +1,3 @@
-
 # 包含一个学生类，
 # 一个sayhello函数，
 # 一个打印语句
@@ -8,7 +7,6 @@ class Student():
         self.name = name
         self.age = age
 
-
     def say(self):
         print("My name is {0}".format(self.name))
 
@@ -17,5 +15,7 @@ def sayHello():
     print("Hi, 欢迎来到图灵学院！")
 
 
+student = Student()
+student.say()
 
 print("我是模块p01呀，你特么的叫我干毛")
